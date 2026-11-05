@@ -558,6 +558,86 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7866626597410254653, guid: de554e29e62bc0440b1fc9c48562d4c4, type: 3}
   m_PrefabInstance: {fileID: 22146558137994189}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &562792160
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1724874857677222, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+      propertyPath: m_Name
+      value: Flying Insect
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724874857677222, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704643116404514, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704643116404514, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704643116404514, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704643116404514, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.691126
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704643116404514, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704643116404514, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704643116404514, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704643116404514, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704643116404514, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704643116404514, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704643116404514, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704643116404514, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704643116404514, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704643116404514, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1724874857677222, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1422355572}
+  m_SourcePrefab: {fileID: 100100000, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
 --- !u!1 &591008043
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,6 +778,52 @@ Transform:
   - {fileID: 237364557}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &758399463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 758399464}
+  - component: {fileID: 758399465}
+  m_Layer: 0
+  m_Name: CocodrileMosquitoPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &758399464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758399463}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 980868234}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &758399465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758399463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58f593afdae983741995eb1525ea8e77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
+  objectPrefab: {fileID: 1724874857677222, guid: 2251e0781c0deb54da3a0c5de18f8cec, type: 3}
+  poolSize: 10
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,6 +871,40 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &980868233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 980868234}
+  m_Layer: 0
+  m_Name: EnemyPools
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &980868234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980868233}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.87552, y: 0, z: 67.96745}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1767580861}
+  - {fileID: 1700302002}
+  - {fileID: 758399464}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1157497735
@@ -860,6 +1020,120 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1422355567 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1724874857677222, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+  m_PrefabInstance: {fileID: 562792160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1422355572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422355567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e667326187077a419eb0aa4066424c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlyingEnemy
+  detectionRange: 5
+  loseRange: 7
+  moveSpeed: 2
+  floatingHeight: 1
+  floatingDuration: 1
+--- !u!1 &1700302001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1700302002}
+  - component: {fileID: 1700302003}
+  m_Layer: 0
+  m_Name: TigerMosquitoPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1700302002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700302001}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 980868234}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1700302003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700302001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58f593afdae983741995eb1525ea8e77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
+  objectPrefab: {fileID: 1724874857677222, guid: 3cd33d774d20b8d4aaf0283e85cf28dd, type: 3}
+  poolSize: 10
+--- !u!1 &1767580860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1767580861}
+  - component: {fileID: 1767580862}
+  m_Layer: 0
+  m_Name: SillyMosquitoPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1767580861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767580860}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 980868234}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1767580862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767580860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58f593afdae983741995eb1525ea8e77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
+  objectPrefab: {fileID: 1724874857677222, guid: 6807a4fbab15c3444aa44ff82bcbe872, type: 3}
+  poolSize: 10
 --- !u!1001 &1981207046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1148,3 +1422,5 @@ SceneRoots:
   - {fileID: 3167430263464145357}
   - {fileID: 1040867630869467040}
   - {fileID: 686977667}
+  - {fileID: 562792160}
+  - {fileID: 980868234}
